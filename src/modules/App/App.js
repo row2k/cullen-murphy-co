@@ -16,7 +16,6 @@ export default class App extends Component {
           <title>Home | Cullen, Murphy & Co., PC.</title>
         </Helmet>
         <div className="container-fluid">
-          <div className="">
             <div className="app-header">
               <Link to='/'><img src={logo} className="app-logo" alt="logo" /></Link>
               <div className="nav-bar">
@@ -40,7 +39,6 @@ export default class App extends Component {
               <div className="footer-info">1506 Providence Highway, Suite 31 - Norwood. MA 02062</div>
               <div className="footer-info">(781) 769-6262</div>
             </div>
-          </div>
         </div>
 
       </div>

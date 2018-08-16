@@ -879,7 +879,7 @@ table {
   bottom: 0;
 }
 .app-footer .footer-info {
-  padding: 0 1rem;
+  padding: 0 0 0 1rem;
 }
 @media (max-width: 900px) {
   .app-header {
@@ -932,6 +932,27 @@ table {
   height: 80vh;
   width: 90vw;
 }
+.home-hero {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-top: -2rem;
+  width: 100vw;
+  height: 80vh;
+  background: #ddd url("assets/osman-rana-300482-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.home-hero-text {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 0 0.5rem #000;
+  font-family: "Copperplate", serif;
+}
 body {
   margin: 0;
   padding: 0;
@@ -944,8 +965,4 @@ body {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-}
-.flood {
-  margin-left: -2rem;
-  width: 100vw;
 }
