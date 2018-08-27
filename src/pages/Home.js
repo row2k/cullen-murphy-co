@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import constImg from '../assets/pexels-photo-271667.jpeg'
 import accountImg from '../assets/pexels-photo-1043506.jpeg'
 
@@ -6,6 +7,9 @@ export default class Home extends Component {
   render() {
     return (
         <div className="home">
+          <Helmet>
+            <title>Home | Cullen, Murphy & Co., PC.</title>
+          </Helmet>
           <div className="home-section home-hero">
             <div className="home-hero-filter"></div>
             <div className="home-hero-text">

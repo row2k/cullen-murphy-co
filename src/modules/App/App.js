@@ -14,9 +14,6 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Helmet>
-          <title>Home | Cullen, Murphy & Co., PC.</title>
-        </Helmet>
         <div className="app-header">
           <Link to='/'><img src={logo} className="app-logo" alt="logo" /></Link>
           <div className="nav-bar">

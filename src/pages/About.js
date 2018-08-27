@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 export default class NotFound extends Component {
   render() {
     return (
         <div className="about">
+          <Helmet>
+            <title>About | Cullen, Murphy & Co., PC.</title>
+          </Helmet>
           <div className="about-intro">
             For more than 50 years, Cullen Murphy & Co., P.C., has delivered focused excellence by providing clients with a comprehensive range of assurance, tax and corporate finance advisory services. Cullen Murphy & Co., P.C., is a boutique firm with a professional teams well-versed in the construction industry and transaction advisory, as well as broader issues related to assurance and tax, and consulting.  We offer both the intellectual resources and depth of experience required to navigate the complex realities of financial compliance and tax structuring.
           </div>

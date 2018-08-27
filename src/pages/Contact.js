@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 import Map from '../components/Map';
 
 export default class Direction extends Component {
   render() {
     return (
         <div className="container-fluid center">
+          <Helmet>
+            <title>Contact | Cullen, Murphy & Co., PC.</title>
+          </Helmet>
           <div className="contacts">
             <div className="contact-item">
               <div className="contact-name">
