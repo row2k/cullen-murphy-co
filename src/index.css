@@ -830,7 +830,7 @@ table {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
-  padding-top: 2rem;
+  padding: 2rem;
 }
 .app-header .app-logo {
   height: 60px;
@@ -862,7 +862,7 @@ table {
   -ms-flex-align: center;
       align-items: center;
   min-height: 80vh;
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
 }
 .app-footer {
   background-color: #123456;
@@ -875,16 +875,22 @@ table {
       align-items: center;
   padding: 2rem 0;
   min-height: 5vh;
-  width: 100%;
+  width: 100vw;
   bottom: 0;
 }
 .app-footer .footer-info {
   padding: 0 0 0 1rem;
 }
+.app-footer .footer-link {
+  color: #98caff;
+  font-weight: 900;
+  text-decoration: none;
+}
 @media (max-width: 900px) {
   .app-header {
     -ms-flex-direction: column;
         flex-direction: column;
+    padding-bottom: 0;
   }
   .app-header .app-logo {
     padding-bottom: 1rem;
@@ -897,11 +903,11 @@ table {
     color: #fefefe;
   }
   .app-footer {
-    -ms-flex-direction: column;
-        flex-direction: column;
     -ms-flex-align: start;
         -ms-grid-row-align: flex-start;
         align-items: flex-start;
+    -ms-flex-direction: column;
+        flex-direction: column;
   }
   .app-footer .footer-info {
     padding-bottom: 1rem;
@@ -920,6 +926,38 @@ table {
     opacity: 1;
   }
 }
+.about {
+  max-width: 800px;
+}
+.about-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: space-around;
+      align-items: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+.about-intro {
+  background-color: #eee;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: "Balthazar", sans-serif;
+  line-height: 1.75rem;
+  padding: 2rem;
+}
+.about-bios-title {
+  font-size: 1.5rem;
+  font-family: "Balthazar", sans-serif;
+  line-height: 1.75rem;
+}
+.about-bios-desc {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
 .direction-map-container {
   display: -ms-flexbox;
   display: flex;
@@ -932,18 +970,64 @@ table {
   height: 80vh;
   width: 90vw;
 }
+.center {
+  max-width: 1000px;
+}
+.contacts {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 30vh;
+  max-width: 1000px;
+}
+.contact-item {
+  height: 6rem;
+  width: 300px;
+  padding: 1rem;
+}
+.contact-name {
+  font-size: 1.5rem;
+  font-family: "Balthazar", sans-serif;
+  line-height: 1.75rem;
+}
+.contact-detail {
+  line-height: 1.25rem;
+}
+.home-section {
+  min-height: 40vh;
+}
+.home-description-alt {
+  background-color: #fcfcfc;
+}
+.home-section-double {
+  max-height: 350px;
+  max-width: 350px;
+  padding: 2rem;
+}
 .home-hero {
+  height: 80vh;
+  width: 100vw;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  margin-top: -2rem;
-  width: 100vw;
-  height: 80vh;
   background: #ddd url("assets/osman-rana-300482-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
+  z-index: -1;
+}
+.home-hero-filter {
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  background-color: rgba(61,132,225,0.3);
+  z-index: 0;
 }
 .home-hero-text {
   color: #fff;
@@ -951,7 +1035,76 @@ table {
   font-weight: bold;
   text-align: center;
   text-shadow: 0 0 0.5rem #000;
-  font-family: "Copperplate", serif;
+  font-family: "Balthazar", serif;
+  z-index: 1;
+}
+.home-description {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  min-height: 40vh;
+}
+.home-description-img img {
+  max-height: 350px;
+  max-width: 350px;
+}
+.home-description-text {
+  font-size: 1.5rem;
+  font-family: "Balthazar", sans-serif;
+  line-height: 1.75rem;
+}
+@media (max-width: 900px) {
+  .home > .home-description ~ .home-description {
+    border-top: 1px solid #fafafa;
+  }
+  .home-description {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+.service {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  max-width: 800px;
+}
+.service-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: space-around;
+      align-items: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 50vh;
+  max-width: 400px;
+  padding: 2rem 0;
+}
+.about-intro {
+  background-color: #eee;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: "Balthazar", sans-serif;
+  line-height: 1.75rem;
+  padding: 2rem;
+}
+.about-bios-title {
+  font-size: 1.5rem;
+  font-family: "Balthazar", sans-serif;
+  line-height: 1.75rem;
+}
+.about-bios-desc {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 body {
   margin: 0;
@@ -960,6 +1113,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 .container {
+  position: relative;
   width: 100%;
   display: -ms-flexbox;
   display: flex;
