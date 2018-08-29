@@ -918,6 +918,11 @@ table {
     font-size: 0.75rem;
   }
 }
+@media (max-width: 415px) {
+  .home-hero-text {
+    font-size: 2rem;
+  }
+}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -953,10 +958,12 @@ table {
   font-size: 1.5rem;
   font-family: "Balthazar", sans-serif;
   line-height: 1.75rem;
+  margin-top: 1rem;
 }
 .about-bios-desc {
   font-size: 1.1rem;
   line-height: 1.5rem;
+  margin-top: 0.5rem;
 }
 .direction-map-container {
   display: -ms-flexbox;
@@ -984,6 +991,7 @@ table {
       flex-wrap: wrap;
   min-height: 30vh;
   max-width: 1000px;
+  margin-bottom: 2rem;
 }
 .contact-item {
   height: 6rem;
@@ -1063,6 +1071,14 @@ table {
   .home-description {
     -ms-flex-direction: column;
         flex-direction: column;
+  }
+}
+@media (max-width: 415px) {
+  .home-hero-text {
+    font-size: 2rem;
+  }
+  .home-description {
+    width: 101vw;
   }
 }
 .service {
