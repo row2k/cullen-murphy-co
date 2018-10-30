@@ -5,6 +5,9 @@ Minimalistic react boilerplate for beginners that gets you up and running.
 npm install
 npm run watch
 ```
+
+Or do npm run-script build
+
 ### What's in it?
 - Stylus
 - React Router
