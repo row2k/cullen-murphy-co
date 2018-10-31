@@ -11,7 +11,6 @@ export default class Home extends Component {
             <title>Home | Cullen, Murphy & Co., PC.</title>
           </Helmet>
           <div className="home-section home-hero">
-            <div className="home-hero-filter"></div>
             <div className="home-hero-text">
               When it comes to your finances,
               <br/>we are in your dugout.
