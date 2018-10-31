@@ -18,7 +18,7 @@ export default class Direction extends Component {
                 Senior Partner <br/>
                 (781) 769-6262 Ext. 15 <br/>
                 (781) 769-5675 (FAX) <br/>
-                JMerchant@CullenMurphyandco.com
+                <a href="mailto:JMerchant@CullenMurphyandco.com?">JMerchant@CullenMurphyandco.com</a>
               </div>
             </div>
             <div className="contact-item">
@@ -29,7 +29,7 @@ export default class Direction extends Component {
                 Partner <br/>
                 (781) 769-6262 Ext. 17 <br/>
                 (781) 769-5675 (FAX) <br/>
-                BKearns@CullenMurphyandco.com
+                <a href="mailto:BKearns@CullenMurphyandco.com?">BKearns@CullenMurphyandco.com</a>
               </div>
             </div>
             <div className="contact-item">
@@ -39,7 +39,7 @@ export default class Direction extends Component {
               <div className="contact-detail">
                 (781) 769-6262 Ext. 16 <br/>
                 (781) 769-5675 (FAX) <br/>
-                MKirk@CullenMurphyandco.com
+                <a href="mailto:MKirk@CullenMurphyandco.com?">MKirk@CullenMurphyandco.com</a>
               </div>
             </div>
             <div className="contact-item">
@@ -49,7 +49,7 @@ export default class Direction extends Component {
               <div className="contact-detail">
                 (781) 769-6262 Ext. 12 <br/>
                 (781) 769-5675 (FAX) <br/>
-                RMalempati@CullenMurphyandco.com
+                <a href="mailto:RMalempati@CullenMurphyandco.com?">RMalempati@CullenMurphyandco.com</a>
               </div>
             </div>
             <div className="contact-item">
@@ -60,7 +60,7 @@ export default class Direction extends Component {
                 Manager <br/>
                 (781) 769-6262 Ext. 13 <br/>
                 (781) 769-5675 (FAX) <br/>
-                REardley@CullenMurphyandco.com
+                <a href="mailto:REardley@CullenMurphyandco.com?">REardley@CullenMurphyandco.com</a>
               </div>
             </div>
             <div className="contact-item">
@@ -70,7 +70,7 @@ export default class Direction extends Component {
               <div className="contact-detail">
                 (781) 769-6262 Ext. 23 <br/>
                 (781) 769-5675 (FAX) <br/>
-                SMarino@CullenMurphyandco.com
+                <a href="mailto:SMarino@CullenMurphyandco.com?">SMarino@CullenMurphyandco.com</a>
               </div>
             </div>
           </div>
