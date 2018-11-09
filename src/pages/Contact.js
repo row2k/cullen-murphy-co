@@ -5,7 +5,7 @@ import Map from '../components/Map';
 export default class Direction extends Component {
   render() {
     return (
-        <div className="container-fluid center">
+        <div className="container-fluid center minipad-right">
           <Helmet>
             <title>Contact | Cullen, Murphy & Co., PC.</title>
           </Helmet>
