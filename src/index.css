@@ -1012,11 +1012,20 @@ table {
 .home-description-alt {
   background-color: #fcfcfc;
 }
-.home-section-double {
-  max-height: 350px;
-  max-width: 350px;
-  padding: .1rem;
-  padding-bottom: 2rem;
+@media screen and (min-width: 200px) {
+  .home-section-double {
+    max-height: 350px;
+    max-width: 350px;
+      padding: 2em;
+  }
+} 
+@media not screen and (max-width: 200px) {
+  .home-section-double {
+    max-height: 350px;
+    max-width: 350px;
+    padding: .1em;
+    padding-top: 3em;
+  }
 }
 .home-hero {
   height: 80vh;
@@ -1064,6 +1073,7 @@ table {
   font-size: 1.5rem;
   font-family: "Balthazar", sans-serif;
   line-height: 1.75rem;
+  padding: 5px;
 }
 @media (max-width: 900px) {
   .home > .home-description ~ .home-description {
@@ -1136,4 +1146,7 @@ body {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
+}
+.minipad-right {
+  padding-right: 0.1em;
 }
