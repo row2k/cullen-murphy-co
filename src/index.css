@@ -1015,7 +1015,8 @@ table {
 .home-section-double {
   max-height: 350px;
   max-width: 350px;
-  padding: 2rem;
+  padding: .1rem;
+  padding-bottom: 2rem;
 }
 .home-hero {
   height: 80vh;
