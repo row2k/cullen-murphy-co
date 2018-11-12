@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
-import constImg from '../assets/pexels-photo-271667.jpeg'
+import constImg from '../assets/piggybank.png'
 import accountImg from '../assets/pexels-photo-1043506.jpeg'
 
 export default class Home extends Component {
