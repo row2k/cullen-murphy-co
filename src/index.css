@@ -935,7 +935,7 @@ table {
   max-width: 800px;
 }
 .about-section {
-  display: -ms-flexbox;
+  display: table-cell;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
@@ -947,6 +947,7 @@ table {
   padding: 2rem 0;
 }
 .about-intro {
+  display: table-cell;
   background-color: #eee;
   font-size: 1.5rem;
   font-style: italic;
